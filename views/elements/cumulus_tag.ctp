@@ -18,7 +18,7 @@
                         'plugin'=>false,
                         'controller' => 'nodes',
                         'action' => 'term',
-                        'type'   => 'suicidapost',
+                        'type'   => $tag['type'],
                         'slug' => $tag['slug'],
                     ),array( 'class' => 'tag-link-79', 'style' => "style='font-size: ".$font_size."pt;"));
         }
